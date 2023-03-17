@@ -1,6 +1,7 @@
 # Andromeda File Picker
 
 ![](https://img.shields.io/badge/Platform-Android-brightgreen.svg)
+[![](https://jitpack.io/v/Alireza-Saeedi/andromedaFilePicker.svg)](https://jitpack.io/#Alireza-Saeedi/andromedaFilePicker)
 
 #### file picker library for Android by by _Alireza Saeedi_
 
