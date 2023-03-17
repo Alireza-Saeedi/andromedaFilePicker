@@ -29,7 +29,7 @@
 
 ```bash
   dependencies {
-	        implementation ''
+	        implementation 'com.github.Alireza-Saeedi:andromedaFilePicker:1.1.0'
 	}
 ```
 
