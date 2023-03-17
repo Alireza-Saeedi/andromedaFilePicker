@@ -1,0 +1,26 @@
+<resources>
+    <string name="deny_permission">دسترسی به حافظه وجود ندارد</string>
+    <string name="empty_directory">پوشه خالی است</string>
+    <string name="choose_file">انتخاب فایل</string>
+    <string name="choose_files">انتخاب فایل ها (%d / %d)</string>
+
+    <string name="type_archive">فایل فشرده</string>
+    <string name="type_certificate">گواهی</string>
+    <string name="type_directory">پوشه</string>
+    <string name="type_document">فایل</string>
+    <string name="type_drawing">طراحی</string>
+    <string name="type_excel">صفحه گسترده</string>
+    <string name="type_image">تصویر</string>
+    <string name="type_music">موسیقی</string>
+    <string name="type_video">فیلم</string>
+    <string name="type_pdf">PDF document</string>
+    <string name="type_power_point">ارائه</string>
+    <string name="type_word">سند</string>
+    <string name="type_apk" translatable="false">APK</string>
+    <string name="type_json" translatable="false">JSON</string>
+
+    <string name="internal_storage">حافظه داخلی</string>
+    <string name="sd_storage">حافظه SD</string>
+    <string name="back">برو عقب</string>
+    <string name="maxSelected">شما حداکثر تعداد مجاز را انتخاب کرده اید.</string>
+</resources>

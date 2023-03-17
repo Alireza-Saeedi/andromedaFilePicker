@@ -78,20 +78,14 @@ new AndromedaFilePicker(this)
 
 `setOnResult()` return selected files
 
-In the table below, you can see all the methods and use them | methods | descriptio |
-|-----------------------|----------------------| |multiple(`enableMultiple`, `maxItemSelected`) |
-select multiple file. <br>`enableMultiple` is `boolean`. for enabled this
-feature.<br>`maxItemSelected` is `int`. limit item selected.<br>example :`multiple(true,2)`|
-|withFilter(`dirOnly`, `allowHidden`,`suffixes`) | filter files with suffixes. <br>`dirOnly`
-is `boolean`.<br>`allowHidden` is `boolean`. show hiden files.<br>`suffixes` is `string...`.file
-suffixes.<br>example :`withFilter(false, false, "pdf","png","docx","mp3")`|
-|withFilterRegex(`dirOnly`, `allowHidden`,`pattern`) | filter file swith regex. <br>`dirOnly`
-is `boolean`.<br>`allowHidden` is `boolean`. show hiden files.<br>`pattern` is `string`. regex
-pattern.<br>example :`withFilterRegex(false, false, ".*\\.(jpe?g|png)")`|
-|withStartPath(`startPath`) | Specifies start directory for picker. <br>`startPath` is `string`.<br>
-example :`withStartPath(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getAbsolutePath())`
-| |withHiddenFiles(`show`) | show hidden files (file name start with dot). <br>`show` is `boolean`
-.<br>example :`withHiddenFiles(true)`|
+In the table below, you can see all the methods and use them 
+| methods | description |
+|-----------------------|----------------------|
+|multiple(`enableMultiple`, `maxItemSelected`) | select multiple file. <br>`enableMultiple` is `boolean`. for enabled this feature.<br>`maxItemSelected` is `int`. limit item selected.<br>example :`multiple(true,2)`|
+|withFilter(`dirOnly`, `allowHidden`,`suffixes`) | filter files with suffixes. <br>`dirOnly` is `boolean`.<br>`allowHidden` is `boolean`. show hidden files.<br>`suffixes` is `string...`.file suffixes.<br>example :`withFilter(false, false, "pdf","png","docx","mp3")`|
+|withFilterRegex(`dirOnly`, `allowHidden`,`pattern`) | filter files with regex. <br>`dirOnly` is `boolean`.<br>`allowHidden` is `boolean`. show hidden files.<br>`pattern` is `string`. regex pattern.<br>example :`withFilterRegex(false, false, ".*\\.(jpe?g|png)")`| 
+|withStartPath(`startPath`) | Specifies start directory for picker. <br>`startPath` is `string`.<br> example :`withStartPath(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getAbsolutePath())`|
+|withHiddenFiles(`show`) | show hidden files (file name start with dot). <br>`show` is `boolean`.<br>example :`withHiddenFiles(true)`|
 
 ## Themes
 

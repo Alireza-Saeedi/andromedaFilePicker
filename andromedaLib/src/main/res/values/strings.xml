@@ -1,0 +1,26 @@
+<resources>
+    <string name="deny_permission">There is no storage access permission</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="choose_file">Select a file</string>
+    <string name="choose_files">Select files (%d / %d)</string>
+
+    <string name="type_archive">Archive</string>
+    <string name="type_certificate">Certificate</string>
+    <string name="type_directory">Directory</string>
+    <string name="type_document">File</string>
+    <string name="type_drawing">Picture</string>
+    <string name="type_excel">Spreadsheet</string>
+    <string name="type_image">Image</string>
+    <string name="type_music">Music</string>
+    <string name="type_video">Video</string>
+    <string name="type_pdf">PDF document</string>
+    <string name="type_power_point">Presentation</string>
+    <string name="type_word">Document</string>
+    <string name="type_apk" translatable="false">APK</string>
+    <string name="type_json" translatable="false">JSON</string>
+
+    <string name="internal_storage">Internal Storage</string>
+    <string name="sd_storage">SD Card</string>
+    <string name="back">go back</string>
+    <string name="maxSelected">You have selected the maximum number allowed.</string>
+</resources>

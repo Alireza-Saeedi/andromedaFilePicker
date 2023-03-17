@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_andromeda_item_root"
+    style="@style/AndromedaListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/iv_andromeda_item"
+        style="@style/AndromedaListItemImage" />
+
+    <ImageView
+        android:id="@+id/iv_andromeda_itemSelected"
+        style="@style/AndromedaListItemImageSelected"
+        android:layout_alignEnd="@+id/iv_andromeda_item"
+        android:layout_alignBottom="@+id/iv_andromeda_item" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/iv_andromeda_item"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_andromeda_item_name"
+            style="@style/AndromedaListItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SD card" />
+
+        <TextView
+            android:id="@+id/tv_andromeda_item_subtitle"
+            style="@style/AndromedaListItemType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Directory" />
+
+    </LinearLayout>
+</RelativeLayout>

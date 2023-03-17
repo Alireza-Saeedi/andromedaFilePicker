@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="andromeda_primary_color">#FF6200EE</color>
+    <color name="andromeda_row_background">#fffbfbfb</color>
+    <color name="andromeda_row_background_tint">#8E41FB</color>
+    <color name="andromeda_row_selector">#39771BFA</color>
+
+</resources>

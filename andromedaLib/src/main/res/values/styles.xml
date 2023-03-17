@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:ignore="ResourceName,PrivateResource">
+
+    <style name="AndromedaAppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/andromeda_primary_color</item>
+        <item name="colorAccent">@color/andromeda_primary_color</item>
+        <item name="colorPrimaryVariant">@color/andromeda_primary_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="colorControlHighlight">@color/andromeda_row_selector</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+    </style>
+
+    <style name="AndromedaHeaderTextView" parent="AndromedaAppTheme">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AndromedaListEmpty" parent="AndromedaAppTheme">
+        <item name="android:textColor">#858585</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AndromedaFinishSelected" parent="ThemeOverlay.Material3.FloatingActionButton.Primary">
+        <item name="android:clickable">true</item>
+        <item name="android:backgroundTint">?attr/colorPrimary</item>
+        <item name="fabSize">normal</item>
+        <item name="srcCompat">@drawable/check</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="tint">#fff</item>
+    </style>
+
+    <style name="AndromedaListItem" parent="AndromedaAppTheme">
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AndromedaListItemImage" parent="AndromedaAppTheme">
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+
+    <style name="AndromedaListItemImageSelected" parent="AndromedaAppTheme">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:src">@drawable/check_circle</item>
+        <item name="android:tint">#55EC58</item>
+    </style>
+
+    <style name="AndromedaListItemName" parent="AndromedaAppTheme">
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+
+    <style name="AndromedaListItemType" parent="AndromedaAppTheme">
+        <item name="android:textColor">#454545</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textDirection">locale</item>
+    </style>
+</resources>
